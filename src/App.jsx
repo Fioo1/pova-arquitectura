@@ -1,4 +1,6 @@
 import { Routes, Route } from "react-router-dom"
+import { useEffect } from "react"
+import { useLocation } from "react-router-dom"
 
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
@@ -9,6 +11,24 @@ import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 
 import ProjectDetail from "./pages/ProjectDetail"
+
+function ScrollToHash() {
+  const location = useLocation()
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash)
+
+      if (element) {
+        element.scrollIntoView({
+          behavior: "smooth",
+        })
+      }
+    }
+  }, [location])
+
+  return null
+}
 
 function Home() {
   return (
@@ -26,6 +46,8 @@ function App() {
   return (
     <div>
       <Navbar />
+
+	  <ScrollToHash />
 
       <Routes>
         <Route path="/" element={<Home />} />

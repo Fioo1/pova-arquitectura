@@ -7,23 +7,23 @@ export default function Navbar() {
         </h1>
 
         <div className="hidden md:flex gap-8 text-sm font-medium">
-          <a href="#inicio" className="hover:text-gray-500 transition">
+          <a href="/#inicio" className="hover:text-gray-500 transition">
             Inicio
           </a>
 
-          <a href="#nosotros" className="hover:text-gray-500 transition">
+          <a href="/#nosotros" className="hover:text-gray-500 transition">
             Nosotros
           </a>
 
-          <a href="#proyectos" className="hover:text-gray-500 transition">
+          <a href="/#proyectos" className="hover:text-gray-500 transition">
             Proyectos
           </a>
 
-          <a href="#servicios" className="hover:text-gray-500 transition">
+          <a href="/#servicios" className="hover:text-gray-500 transition">
             Servicios
           </a>
 
-          <a href="#contacto" className="hover:text-gray-500 transition">
+          <a href="/#contacto" className="hover:text-gray-500 transition">
             Contacto
           </a>
         </div>

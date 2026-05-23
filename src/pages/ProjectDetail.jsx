@@ -1,4 +1,5 @@
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
+import { useEffect } from "react"
 import { projects } from "../data/projects"
 
 export default function ProjectDetail() {
@@ -9,10 +10,22 @@ export default function ProjectDetail() {
     (p) => p.id === id
   )
 
+  useEffect(() => {
+	window.scrollTo({
+		top: 0,
+		behavior: "instant"
+	})}, [])
+
   return (
     <section className="py-32 px-6 bg-gray-50 min-h-screen">
 
       <div className="max-w-7xl mx-auto">
+		<Link
+			to="/#proyectos"
+			className="inline-block mb-12 text-gray-600 hover:text-black transition"
+		>
+			← Volver a proyectos
+		</Link>
 
         <div className="text-center mb-20">
           <h1 className="text-5xl font-bold mb-6">
