@@ -51,10 +51,10 @@ export default function Navbar() {
 					</a>
 
 					<a
-						href="/#servicios"
+						href="/#mision"
 						className="block py-3 hover:text-gray-500 transition"
 					>
-						Nuestro proceso
+						Nuestra misión
 					</a>
 				</div>
 			</div>

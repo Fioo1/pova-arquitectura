@@ -5,6 +5,7 @@ import { useLocation } from "react-router-dom"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import About from "./components/About"
+import Mission from "./components/Mission"
 import Projects from "./components/Projects"
 import Services from "./components/Services"
 import Contact from "./components/Contact"
@@ -35,6 +36,7 @@ function Home() {
     <>
       <Hero />
       <About />
+	  <Mission />
       <Projects />
       <Services />
       <Contact />
