@@ -10,9 +10,14 @@ import obra4 from "../assets/cocina/obra4.jpg"
 
 export const projects = [
   {
+    id: "cocina-moderna",
+
     title: "Cocina Moderna",
+
     description:
       "Diseño minimalista ejecutado con acabados elegantes e iluminación cálida.",
+
+    cover: render1,
 
     renders: [
       render1,
@@ -28,10 +33,16 @@ export const projects = [
       obra4,
     ]
   },
+
   {
-    title: "Cocina Moderna2",
+    id: "cocina-moderna-2",
+
+    title: "Cocina Moderna 2",
+
     description:
-      "Diseño minimalista ejecutado con acabados elegantes e iluminación cálida.",
+      "Proyecto moderno con acabados premium y diseño funcional.",
+
+    cover: render2,
 
     renders: [
       render1,
@@ -47,10 +58,16 @@ export const projects = [
       obra4,
     ]
   },
+
   {
-    title: "Cocina Moderna3",
+    id: "cocina-moderna-3",
+
+    title: "Cocina Moderna 3",
+
     description:
-      "Diseño minimalista ejecutado con acabados elegantes e iluminación cálida.",
+      "Diseño elegante enfocado en iluminación y amplitud visual.",
+
+    cover: render3,
 
     renders: [
       render1,
