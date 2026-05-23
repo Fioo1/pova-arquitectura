@@ -29,17 +29,41 @@ export const projects = [
     ]
   },
   {
-    title: "Diseño Interior",
+    title: "Cocina Moderna2",
     description:
-      "Espacios minimalistas y funcionales pensados para comodidad y estilo.",
-    image:
-      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
+      "Diseño minimalista ejecutado con acabados elegantes e iluminación cálida.",
+
+    renders: [
+      render1,
+      render2,
+      render3,
+      render4,
+    ],
+
+    obras: [
+      obra1,
+      obra2,
+      obra3,
+      obra4,
+    ]
   },
   {
-    title: "Proyecto Residencial",
+    title: "Cocina Moderna3",
     description:
-      "Arquitectura moderna combinando iluminación natural y diseño premium.",
-    image:
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop",
+      "Diseño minimalista ejecutado con acabados elegantes e iluminación cálida.",
+
+    renders: [
+      render1,
+      render2,
+      render3,
+      render4,
+    ],
+
+    obras: [
+      obra1,
+      obra2,
+      obra3,
+      obra4,
+    ]
   },
 ]
