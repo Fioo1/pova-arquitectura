@@ -1,16 +1,55 @@
-# React + Vite
+# POVA Arquitectura y Construcción
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sitio web corporativo desarrollado para **POVA Arquitectura y Construcción**, estudio enfocado en diseño arquitectónico, construcción y remodelación de espacios modernos y funcionales.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este proyecto fue desarrollado como una landing page profesional para mostrar:
 
-## React Compiler
+- Proyectos arquitectónicos
+- Comparativa Render vs Obra Final
+- Servicios ofrecidos
+- Información institucional
+- Contacto directo con clientes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+La web busca transmitir una identidad visual elegante, moderna y profesional.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologías utilizadas
+
+- React
+- Vite
+- Tailwind CSS
+- React Router DOM
+- GitHub
+- Vercel
+
+---
+
+## Funcionalidades
+
+- Navegación SPA con React Router
+- Sección de proyectos interactiva
+- Visualización detallada de renders y obras finales
+- Navbar con menú desplegable
+- Scroll inteligente entre secciones
+- Diseño responsive
+- Deploy automático con Vercel
+
+---
+
+## Deploy
+
+Sitio publicado en:
+
+[Ver sitio web](https://pova-arquitectura.vercel.app)
+
+---
+
+## Autor
+
+Desarrollado por **Fiorella Portella**
+
+Proyecto desarrollado como solución web aplicada a un caso real del sector arquitectura y construcción.
+
