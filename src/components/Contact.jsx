@@ -17,7 +17,7 @@ export default function Contact() {
 
         <div className="flex justify-center flex-wrap gap-5">
           <a
-            href="https://wa.me/51980420326"
+            href="https://wa.me/51980420326?text=Hola,%20me%20gustaría%20solicitar%20información%20sobre%20un%20proyecto%20arquitectónico%20y%20cotizar%20una%20propuesta."
             target="_blank"
             className="bg-black text-white px-8 py-4 rounded-full hover:scale-105 transition"
           >
