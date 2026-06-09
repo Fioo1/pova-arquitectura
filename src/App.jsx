@@ -10,6 +10,7 @@ import Projects from "./components/Projects"
 import Services from "./components/Services"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
+import Quote from "./components/Quote"
 
 import ProjectDetail from "./pages/ProjectDetail"
 
@@ -39,6 +40,7 @@ function Home() {
 	  <Mission />
       <Projects />
       <Services />
+      <Quote />
       <Contact />
     </>
   )
