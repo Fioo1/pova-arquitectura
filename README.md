@@ -47,6 +47,21 @@ Sitio publicado en:
 
 ---
 
+## Estado del proyecto
+
+🚧 Proyecto actualmente en desarrollo y mejora continua.
+
+Próximas actualizaciones:
+
+- Incorporación de nuevos proyectos arquitectónicos.
+- Actualización y refinamiento del diseño visual.
+- Cambio de nombre e identidad visual del proyecto.
+- Mejoras visuales en componentes y secciones.
+- Optimización de la experiencia de usuario (UX).
+- Ampliación del portafolio y contenido disponible.
+
+---
+
 ## Autor
 
 Desarrollado por **Fiorella Portella**
